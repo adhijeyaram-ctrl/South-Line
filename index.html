@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Line Packers & Movers | Safe & Reliable Relocation Services</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Inter & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#1E3A8A', // Deep Trust Blue
+                            darkblue: '#112250',
+                            orange: '#F97316', // Vibrant Safety Orange
+                            lightorange: '#FFEDD5',
+                            lightbg: '#F8FAFC'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom smooth scroll and styling helpers */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-pattern {
+            background-image: linear-gradient(rgba(17, 34, 80, 0.85), rgba(30, 58, 138, 0.9)), url('https://placehold.co/1920x1080/1E3A8A/FFFFFF?text=Logistics+Fleet');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-brand-lightbg text-slate-800 antialiased selection:bg-brand-orange selection:text-white">
+
+    <!-- Top Bar -->
+    <div class="bg-brand-darkblue text-white text-xs sm:text-sm py-2 px-4 sm:px-8 border-b border-blue-900">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-phone text-brand-orange"></i> <a href="tel:+919876543210" class="hover:text-brand-orange transition">+91 98765 43210</a></span>
+                <span class="hidden md:flex items-center gap-1.5"><i class="fa-solid fa-envelope text-brand-orange"></i> <a href="mailto:support@southlinepackers.com" class="hover:text-brand-orange transition">support@southlinepackers.com</a></span>
+            </div>
+            <div class="flex items-center gap-4 text-slate-300">
+                <span><i class="fa-solid fa-clock text-brand-orange mr-1"></i> 24/7 Customer Support</span>
+                <span class="hidden sm:inline">|</span>
+                <span class="hidden sm:inline font-medium text-white">ISO 9001:2015 Certified</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-3.5 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2.5">
+                <div class="bg-brand-orange text-white p-2.5 rounded-xl shadow-lg flex items-center justify-center">
+                    <i class="fa-solid fa-truck-fast text-xl"></i>
+                </div>
+                <div>
+                    <span class="text-lg sm:text-xl font-extrabold tracking-tight text-brand-blue block leading-none">SOUTH LINE</span>
+                    <span class="text-xs font-semibold tracking-wider text-brand-orange uppercase">Packers & Movers</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden lg:flex items-center gap-8 font-medium text-slate-600">
+                <a href="#services" class="hover:text-brand-orange transition">Services</a>
+                <a href="#calculator" class="hover:text-brand-orange transition">Quick Quote</a>
+                <a href="#why-us" class="hover:text-brand-orange transition">Why Us</a>
+                <a href="#areas" class="hover:text-brand-orange transition">Service Areas</a>
+                <a href="#testimonials" class="hover:text-brand-orange transition">Testimonials</a>
+                <a href="#contact" class="hover:text-brand-orange transition">Contact</a>
+            </nav>
+
+            <!-- Call to Action Button -->
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="tel:+919876543210" class="bg-brand-orange hover:bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-xl shadow-md transition flex items-center gap-2 text-sm">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <span>Call Now</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="menu-btn" class="lg:hidden text-brand-blue text-2xl focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-6 py-4 space-y-3 shadow-xl">
+            <a href="#services" class="block font-medium text-slate-700 hover:text-brand-orange">Services</a>
+            <a href="#calculator" class="block font-medium text-slate-700 hover:text-brand-orange">Quick Quote</a>
+            <a href="#why-us" class="block font-medium text-slate-700 hover:text-brand-orange">Why Us</a>
+            <a href="#areas" class="block font-medium text-slate-700 hover:text-brand-orange">Service Areas</a>
+            <a href="#testimonials" class="block font-medium text-slate-700 hover:text-brand-orange">Testimonials</a>
+            <a href="#contact" class="block font-medium text-slate-700 hover:text-brand-orange">Contact</a>
+            <div class="pt-2">
+                <a href="tel:+919876543210" class="block w-full text-center bg-brand-orange text-white font-semibold py-2.5 rounded-xl shadow">Call +91 98765 43210</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Quick Quote Calculator -->
+    <section class="hero-pattern py-16 sm:py-24 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Left Hero Info -->
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full text-brand-orange text-xs sm:text-sm font-semibold border border-white/20">
+                    <i class="fa-solid fa-shield-halved"></i> 100% Safe & Insured Relocation
+                </div>
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Stress-Free Moving Across <span class="text-brand-orange">South India</span>
+                </h1>
+                <p class="text-slate-200 text-base sm:text-lg max-w-xl">
+                    Experience seamless household shifting, secure corporate relocation, and vehicle transport with South India's most trusted logistics partner.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <div class="flex items-center gap-3 bg-white/5 backdrop-blur border border-white/10 px-4 py-3 rounded-xl">
+                        <div class="text-brand-orange text-xl font-bold">15K+</div>
+                        <div class="text-xs text-slate-300">Successful<br>Moves Done</div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-white/5 backdrop-blur border border-white/10 px-4 py-3 rounded-xl">
+                        <div class="text-brand-orange text-xl font-bold">4.9/5</div>
+                        <div class="text-xs text-slate-300">Customer<br>Satisfaction</div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-white/5 backdrop-blur border border-white/10 px-4 py-3 rounded-xl">
+                        <div class="text-brand-orange text-xl font-bold">100%</div>
+                        <div class="text-xs text-slate-300">Door-to-Door<br>Tracking</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Quick Estimate Calculator Card -->
+            <div class="lg:col-span-5 bg-white text-slate-800 p-6 sm:p-8 rounded-3xl shadow-2xl border border-slate-100">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-bold text-brand-blue"><i class="fa-solid fa-calculator text-brand-orange mr-2"></i> Get Instant Quote</h3>
+                    <span class="text-xs bg-brand-lightorange text-brand-orange font-bold px-2.5 py-1 rounded-full">Free Estimate</span>
+                </div>
+                <p class="text-xs text-slate-500 mb-6">Fill in basic details to get an estimated quote within seconds.</p>
+
+                <form id="quote-form" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Moving From</label>
+                        <input type="text" id="from-location" required placeholder="e.g., Chennai, Bangalore, Madurai" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Moving To</label>
+                        <input type="text" id="to-location" required placeholder="e.g., Hyderabad, Kochi, Coimbatore" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Select Service Type</label>
+                        <select id="service-type" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                            <option value="household">Household Shifting</option>
+                            <option value="office">Office Relocation</option>
+                            <option value="vehicle">Vehicle Transport (Car/Bike)</option>
+                            <option value="warehouse">Warehouse & Storage</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Phone Number</label>
+                        <input type="tel" id="quote-phone" required placeholder="10-digit mobile number" pattern="[0-9]{10}" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                    </div>
+                    <button type="submit" class="w-full bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 rounded-xl shadow-lg transition flex items-center justify-center gap-2 mt-2">
+                        <span>Calculate Estimate</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+
+                <!-- Result Box -->
+                <div id="quote-result" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-sm">
+                    <p class="font-bold mb-1"><i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> Estimate Generated!</p>
+                    <p id="quote-text" class="text-xs text-emerald-700"></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 max-w-7xl mx-auto px-4 sm:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span class="text-xs font-bold tracking-widest text-brand-orange uppercase bg-orange-100 px-3 py-1 rounded-full">Our Core Services</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-blue">Comprehensive Relocation Solutions</h2>
+            <p class="text-slate-600 text-sm sm:text-base">We handle every single detail of your move with professional care, advanced equipment, and trained packing experts.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Service 1 -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 bg-brand-lightorange rounded-2xl flex items-center justify-center text-brand-orange text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Household Shifting</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Safe packing of fragile items, furniture disassembly/reassembly, and careful loading & unloading for your home transition.</p>
+                </div>
+                <ul class="space-y-2 text-xs text-slate-500 border-t border-slate-100 pt-4">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Bubble wrap & carton boxes</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Doorstep placement</li>
+                </ul>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 bg-brand-lightorange rounded-2xl flex items-center justify-center text-brand-orange text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-building-user"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Office Relocation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Minimal downtime business shifting including IT server packing, workstation dismantling, and heavy file organization.</p>
+                </div>
+                <ul class="space-y-2 text-xs text-slate-500 border-t border-slate-100 pt-4">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Weekend shifting available</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Asset safety insurance</li>
+                </ul>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 bg-brand-lightorange rounded-2xl flex items-center justify-center text-brand-orange text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Vehicle Transport</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Enclosed container carriers specifically designed for cars and two-wheelers to guarantee scratch-free delivery.</p>
+                </div>
+                <ul class="space-y-2 text-xs text-slate-500 border-t border-slate-100 pt-4">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Multi-car trailers</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Zero transit damage record</li>
+                </ul>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 bg-brand-lightorange rounded-2xl flex items-center justify-center text-brand-orange text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-warehouse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Warehouse & Storage</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">Secure, pest-controlled, and CCTV monitored climate-sensitive storage units for short-term or long-term needs.</p>
+                </div>
+                <ul class="space-y-2 text-xs text-slate-500 border-t border-slate-100 pt-4">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> 24/7 Security surveillance</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Flexible rental options</li>
+                </ul>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col justify-between group">
+                <div>
+                    <div class="w-14 h-14 bg-brand-lightorange rounded-2xl flex items-center justify-center text-brand-orange text-2xl mb-6 group-hover:bg-brand-orange group-hover:text-white transition duration-300">
+                        <i class="fa-solid fa-boxes-packing"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Packing & Unpacking</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">High-grade multi-layer packing materials including bubble wrap, stretch film, heavy-duty cartons, and thermocol padding.</p>
+                </div>
+                <ul class="space-y-2 text-xs text-slate-500 border-t border-slate-100 pt-4">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Professional crew</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Complete unpacking service</li>
+                </ul>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="bg-brand-blue rounded-3xl p-8 shadow-xl text-white flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-brand-orange rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Need Custom Relocation?</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">Planning a specialized heavy machinery transport or interstate move? Speak directly with our logistics coordinators.</p>
+                </div>
+                <a href="#contact" class="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-xl transition text-sm">
+                    <span>Talk to Expert</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us Badges Section -->
+    <section id="why-us" class="bg-blue-900 text-white py-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-xs font-bold tracking-widest text-brand-orange uppercase bg-white/10 px-3 py-1 rounded-full">Why Choose Us</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold">The South Line Advantage</h2>
+                <p class="text-slate-300 text-sm sm:text-base">We combine cutting-edge vehicle tracking with time-tested expertise to deliver peace of mind.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Badge 1 -->
+                <div class="bg-white/5 backdrop-blur border border-white/10 p-6 rounded-3xl text-center space-y-4 hover:bg-white/10 transition">
+                    <div class="w-12 h-12 bg-brand-orange text-white rounded-2xl mx-auto flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-shield-cat"></i>
+                    </div>
+                    <h4 class="text-lg font-bold">100% Damage Protection</h4>
+                    <p class="text-slate-300 text-xs leading-relaxed">Comprehensive transit insurance covering all items from pickup to final room placement.</p>
+                </div>
+
+                <!-- Badge 2 -->
+                <div class="bg-white/5 backdrop-blur border border-white/10 p-6 rounded-3xl text-center space-y-4 hover:bg-white/10 transition">
+                    <div class="w-12 h-12 bg-brand-orange text-white rounded-2xl mx-auto flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h4 class="text-lg font-bold">Verified Professional Crew</h4>
+                    <p class="text-slate-300 text-xs leading-relaxed">Background-verified packing experts, polite drivers, and experienced supervisors.</p>
+                </div>
+
+                <!-- Badge 3 -->
+                <div class="bg-white/5 backdrop-blur border border-white/10 p-6 rounded-3xl text-center space-y-4 hover:bg-white/10 transition">
+                    <div class="w-12 h-12 bg-brand-orange text-white rounded-2xl mx-auto flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                    </div>
+                    <h4 class="text-lg font-bold">Transparent Pricing</h4>
+                    <p class="text-slate-300 text-xs leading-relaxed">No hidden fees, no last-minute surprises. Guaranteed upfront written quotations.</p>
+                </div>
+
+                <!-- Badge 4 -->
+                <div class="bg-white/5 backdrop-blur border border-white/10 p-6 rounded-3xl text-center space-y-4 hover:bg-white/10 transition">
+                    <div class="w-12 h-12 bg-brand-orange text-white rounded-2xl mx-auto flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <h4 class="text-lg font-bold">On-Time Delivery</h4>
+                    <p class="text-slate-300 text-xs leading-relaxed">Strict adherence to scheduled delivery timelines across all South Indian states.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Across South India -->
+    <section id="areas" class="py-20 max-w-7xl mx-auto px-4 sm:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span class="text-xs font-bold tracking-widest text-brand-orange uppercase bg-orange-100 px-3 py-1 rounded-full">Network Coverage</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-blue">Serving All Major South Indian Hubs</h2>
+            <p class="text-slate-600 text-sm sm:text-base">We operate extensive fleets connecting every major city, town, and industrial hub in the Southern region.</p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Chennai</h4>
+                <span class="text-xs text-slate-400">Headquarters</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Bangalore</h4>
+                <span class="text-xs text-slate-400">Hub Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Hyderabad</h4>
+                <span class="text-xs text-slate-400">Hub Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Kochi</h4>
+                <span class="text-xs text-slate-400">Hub Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Coimbatore</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Madurai</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Visakhapatnam</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Trivandrum</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Mysore</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Vijayawada</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Trichy</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+            <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-100 text-center hover:border-brand-orange transition group">
+                <i class="fa-solid fa-location-dot text-brand-orange text-xl mb-2 group-hover:scale-110 transition"></i>
+                <h4 class="font-bold text-slate-800 text-sm">Salem</h4>
+                <span class="text-xs text-slate-400">Branch Office</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-xs font-bold tracking-widest text-brand-orange uppercase bg-orange-100 px-3 py-1 rounded-full">Customer Feedback</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-blue">Trusted by Thousands of Families</h2>
+                <p class="text-slate-600 text-sm sm:text-base">Read real reviews from customers who moved effortlessly with South Line Packers & Movers.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic mb-6">"Shifted my 3BHK household from Chennai to Bangalore. Not a single glassware was broken! The team arrived on time and finished packing within 4 hours. Highly recommended."</p>
+                    </div>
+                    <div class="flex items-center gap-3 border-t border-slate-100 pt-4">
+                        <div class="w-10 h-10 bg-brand-lightorange text-brand-orange rounded-full flex items-center justify-center font-bold text-sm">
+                            RK
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-brand-blue">Rajesh Kumar</h4>
+                            <span class="text-xs text-slate-400">Moved from Chennai to Bangalore</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic mb-6">"We shifted our corporate office branch in Hyderabad with South Line. Professional paperwork, expert IT server handling, and very polite crew. Great value for money."</p>
+                    </div>
+                    <div class="flex items-center gap-3 border-t border-slate-100 pt-4">
+                        <div class="w-10 h-10 bg-brand-lightorange text-brand-orange rounded-full flex items-center justify-center font-bold text-sm">
+                            AP
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-brand-blue">Ananya Prasad</h4>
+                            <span class="text-xs text-slate-400">Office Relocation in Hyderabad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm italic mb-6">"Transported my car from Kochi to Coimbatore. Picked up right from my apartment parking and delivered safely in an enclosed truck. Excellent service!"</p>
+                    </div>
+                    <div class="flex items-center gap-3 border-t border-slate-100 pt-4">
+                        <div class="w-10 h-10 bg-brand-lightorange text-brand-orange rounded-full flex items-center justify-center font-bold text-sm">
+                            MS
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-brand-blue">Mathew Samuel</h4>
+                            <span class="text-xs text-slate-400">Car Transport from Kochi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Inquiry Form -->
+    <section id="contact" class="py-20 max-w-7xl mx-auto px-4 sm:px-8">
+        <div class="bg-brand-blue rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-12 text-white">
+            
+            <!-- Contact Info Left -->
+            <div class="lg:col-span-5 p-8 sm:p-12 flex flex-col justify-between space-y-8 bg-gradient-to-br from-brand-blue to-brand-darkblue">
+                <div>
+                    <span class="text-xs font-bold tracking-widest text-brand-orange uppercase bg-white/10 px-3 py-1 rounded-full">Get In Touch</span>
+                    <h3 class="text-3xl font-extrabold mt-4 mb-3">Ready to Move? Let’s Talk.</h3>
+                    <p class="text-slate-300 text-sm">Contact our logistics team anytime for free consultations, doorstep surveys, or booking confirmations.</p>
+                </div>
+
+                <div class="space-y-6 text-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-brand-orange rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span class="block text-xs text-slate-400 uppercase font-semibold">Phone Numbers</span>
+                            <a href="tel:+919876543210" class="font-bold hover:text-brand-orange transition">+91 98765 43210</a>, 
+                            <a href="tel:+919123456789" class="font-bold hover:text-brand-orange transition">+91 91234 56789</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-brand-orange rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="block text-xs text-slate-400 uppercase font-semibold">Email Address</span>
+                            <a href="mailto:support@southlinepackers.com" class="font-bold hover:text-brand-orange transition">support@southlinepackers.com</a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-brand-orange rounded-xl flex items-center justify-center shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <span class="block text-xs text-slate-400 uppercase font-semibold">Headquarters</span>
+                            <p class="font-medium text-slate-200">#45, GST Road, Guindy Industrial Estate, Chennai, Tamil Nadu - 600032</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 pt-4 border-t border-white/10">
+                    <a href="#" class="w-10 h-10 bg-white/10 hover:bg-brand-orange rounded-xl flex items-center justify-center transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 bg-white/10 hover:bg-brand-orange rounded-xl flex items-center justify-center transition"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="w-10 h-10 bg-white/10 hover:bg-brand-orange rounded-xl flex items-center justify-center transition"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 bg-white/10 hover:bg-brand-orange rounded-xl flex items-center justify-center transition"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Inquiry Form Right -->
+            <div class="lg:col-span-7 bg-white text-slate-800 p-8 sm:p-12">
+                <h3 class="text-2xl font-bold text-brand-blue mb-2">Send Us an Inquiry</h3>
+                <p class="text-xs text-slate-500 mb-6">Fill out this form and our relocation specialist will call you back within 15 minutes.</p>
+
+                <form id="inquiry-form" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Full Name</label>
+                            <input type="text" id="inquiry-name" required placeholder="John Doe" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Phone Number</label>
+                            <input type="tel" id="inquiry-phone" required placeholder="10-digit mobile number" pattern="[0-9]{10}" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Moving From City</label>
+                            <input type="text" id="inquiry-from" required placeholder="e.g., Madurai" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Moving To City</label>
+                            <input type="text" id="inquiry-to" required placeholder="e.g., Coimbatore" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-1">Message / Requirements</label>
+                        <textarea id="inquiry-msg" rows="3" placeholder="Mention items count or specific dates..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-brand-orange transition resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brand-orange hover:bg-orange-600 text-white font-bold py-3 rounded-xl shadow-lg transition flex items-center justify-center gap-2">
+                        <span>Submit Inquiry</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <!-- Success Message Box -->
+                <div id="inquiry-success" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-sm">
+                    <p class="font-bold"><i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> Thank you! Your inquiry has been submitted successfully.</p>
+                    <p class="text-xs text-emerald-700 mt-1">Our customer support executive will contact you shortly.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darkblue text-slate-400 text-xs sm:text-sm py-12 border-t border-blue-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="bg-brand-orange text-white p-2 rounded-xl flex items-center justify-center">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div>
+                        <span class="text-lg font-extrabold text-white block leading-none">SOUTH LINE</span>
+                        <span class="text-[10px] font-semibold text-brand-orange uppercase">Packers & Movers</span>
+                    </div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed">South India's premier logistics, packing, and relocation service provider with ISO certification and trained crew.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#services" class="hover:text-brand-orange transition">Our Services</a></li>
+                    <li><a href="#calculator" class="hover:text-brand-orange transition">Quick Estimate</a></li>
+                    <li><a href="#why-us" class="hover:text-brand-orange transition">Why Choose Us</a></li>
+                    <li><a href="#areas" class="hover:text-brand-orange transition">Service Areas</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Services</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#services" class="hover:text-brand-orange transition">Household Shifting</a></li>
+                    <li><a href="#services" class="hover:text-brand-orange transition">Office Relocation</a></li>
+                    <li><a href="#services" class="hover:text-brand-orange transition">Vehicle Transport</a></li>
+                    <li><a href="#services" class="hover:text-brand-orange transition">Warehouse & Storage</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Working Hours</h4>
+                <p class="text-xs text-slate-400 mb-2">Monday - Sunday: Open 24 Hours</p>
+                <p class="text-xs text-slate-400">Emergency support & live GPS tracking available round the clock.</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 pt-8 border-t border-blue-900/50 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+            <p>&copy; 2026 South Line Packers & Movers. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-brand-orange transition">Privacy Policy</a>
+                <a href="#" class="hover:text-brand-orange transition">Terms of Service</a>
+                <a href="#" class="hover:text-brand-orange transition">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu & Form Feedbacks -->
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Quick Quote Calculator Form Handler
+        const quoteForm = document.getElementById('quote-form');
+        const quoteResult = document.getElementById('quote-result');
+        const quoteText = document.getElementById('quote-text');
+
+        quoteForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const from = document.getElementById('from-location').value;
+            const to = document.getElementById('to-location').value;
+            const service = document.getElementById('service-type').value;
+
+            // Generate dummy estimate based on service
+            let basePrice = 4500;
+            if(service === 'office') basePrice = 18000;
+            if(service === 'vehicle') basePrice = 6500;
+            if(service === 'warehouse') basePrice = 3000;
+
+            quoteText.innerHTML = `Estimated Price for <b>${service.toUpperCase()}</b> from <b>${from}</b> to <b>${to}</b> starts around <b>₹${basePrice.toLocaleString('en-IN')} onwards</b>. Our executive will call you with a detailed breakdown.`;
+            quoteResult.classList.remove('hidden');
+        });
+
+        // Contact Inquiry Form Handler
+        const inquiryForm = document.getElementById('inquiry-form');
+        const inquirySuccess = document.getElementById('inquiry-success');
+
+        inquiryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            inquiryForm.reset();
+            inquirySuccess.classList.remove('hidden');
+            setTimeout(() => {
+                inquirySuccess.classList.add('hidden');
+            }, 6000);
+        });
+    </script>
+</body>
+</html>
